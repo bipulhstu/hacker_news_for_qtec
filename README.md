@@ -10,7 +10,7 @@ The first step is to implement a web service to fetch top stories. There are sev
 For the sake of simplicity, I have used the http package. Install the package by adding the http package in the pubspec.yaml.
 
 
-I have implemente our getTopStories method in a Webservice.dart file. The implementation is shown below:
+I have implemented  getTopStories method in a Webservice.dart file. The implementation is shown below:
 
  void _populateTopStories() async {
     final responses = await Webservice().getTopStories();
